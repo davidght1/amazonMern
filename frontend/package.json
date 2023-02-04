@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "proxy": "http://localhost:10000",
+  "proxy": "https://api.render.com/deploy/srv-cffc41ha6gdma8jkosn0?key=mNJ9S9Gmkuc",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
