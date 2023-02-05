@@ -42,7 +42,7 @@ function ProductScreen() {
       dispatch({ type: "FETCH_REQUEST" });
       try {
         const result = await axios.get(
-          `https://mern-amazona-app-backend.onrender.com//api/products/slug/${slug}`
+          `https://mern-amazona-app-backend.onrender.com/api/products/slug/${slug}`
         );
         dispatch({ type: "FETCH_SUCCESS", payload: result.data });
       } catch (err) {
